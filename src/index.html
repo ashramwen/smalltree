@@ -4,56 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <link href="assets/css/splide-core.min.css" rel="stylesheet" /> -->
-    <link href="assets/css/splide.min.css" rel="stylesheet" />
-    <link href="assets/css/tailwind.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet" />
+
+    <link href="assets/css/index.css" rel="stylesheet" />
     <link href="assets/css/styles.css" rel="stylesheet" />
-    <script src="assets/js/splide.min.js"></script>
     <title>小樹購</title>
   </head>
-  <body class="box-content">
+  <body class="box-content text-gray-500">
+    <!-- Header -->
     <include src="partials/header.html"></include>
 
-    <div class="splide">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <a class="" href="http://google.com">
-              <div class="relative h-full w-full">
-                <img
-                  class="absolute"
-                  src="https://i.picsum.photos/id/1021/2000/800.jpg?blur=4&grayscale&hmac=TPKf_0yysl_EdjgbzzPNnterfQeReOQ7Lx0Wu5SHFZQ"
-                  alt=""
-                />
-                <div class="absolute text-white">
-                  <div class="text-shadow">貓咪卯毛咪毛貓咪・週年慶</div>
-                  <div class="text-shadow">低敏無穀挑嘴全年齡貓糧1kg</div>
-                  <button>獨家售賣・早鳥限定優惠</button>
-                </div>
-              </div>
-            </a>
-          </li>
-          <li class="splide__slide">Slide 02</li>
-          <li class="splide__slide">Slide 03</li>
-          <li class="splide__slide">Slide 04</li>
-          <li class="splide__slide">Slide 05</li>
-          <li class="splide__slide">Slide 06</li>
-        </ul>
+    <div class="carousel h-full">
+      <div class="relative h-full w-full">
+        <img
+          width="1020"
+          height="406"
+          class="absolute"
+          src="https://i.picsum.photos/id/1021/2000/800.jpg?blur=4&grayscale&hmac=TPKf_0yysl_EdjgbzzPNnterfQeReOQ7Lx0Wu5SHFZQ"
+          alt=""
+        />
+        <div class="absolute text-white h-full">
+          <div class="text-shadow">貓咪卯毛咪毛貓咪・週年慶</div>
+          <div class="text-shadow">低敏無穀挑嘴全年齡貓糧1kg</div>
+          <button>獨家售賣・早鳥限定優惠</button>
+        </div>
       </div>
     </div>
 
-    <div class="text-4xl">小樹購簡介</div>
+    <div class="container mx-auto flex flex-col items-center xl:px-12 px-6">
+      <div class="mt-18 text-4xl text-gray-500">主打商品</div>
+      <div class="h-3px w-12 mt-5 mb-12 bg-orange rounded-full"></div>
+      <!-- Product -->
+      <include src="partials/product.html"></include>
 
-    <!-- <div>
-      由霖園集團之神坊資訊經營，前身為TreeMall購物網(2006年上線)，於2021第三季改版為「TreeBuy
-      小樹購」全新上線，提供消費者更美好精緻的線上購物體驗。
+      <div class="mt-18 text-4xl text-gray-500">春季活動</div>
+      <div class="h-3px w-12 mt-5 mb-12 bg-orange rounded-full"></div>
+      <!-- Spring event -->
+      <include src="partials/spring.html"></include>
+
+      <div class="mt-18 text-4xl text-gray-500">超酷活動</div>
+      <div class="h-3px w-12 mt-5 mb-12 bg-orange rounded-full"></div>
+      <!-- Cool event -->
+      <include src="partials/event.html"></include>
+
+      <!-- special -->
+      <include src="partials/special.html"></include>
     </div>
-    <div class="my-8">
-      「TreeBuy 小樹購 優惠不只一點」
-      小樹購提供小樹點最優惠的兌點及消費場域，不僅能直接兌換商品也可加價換購及任意折抵全站消費金額，同時享有購物回饋，各種專屬於小樹點的優惠讓您的一點小樹點價值不只一點！
-      未來TreeBuy
-      小樹購將結合所有生活消費服務，一站滿足所有生活體驗，並持續提供國泰集團(關係企業)客戶獨家專屬消費禮遇，建立完善的數位生活圈，手中有國泰，生活很精彩!
-    </div> -->
+
+    <!-- Footer -->
+    <include src="partials/footer.html"></include>
 
     <script src="assets/js/index.js"></script>
   </body>
