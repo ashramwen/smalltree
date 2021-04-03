@@ -11761,12 +11761,24 @@ video {
   height: 3px;
 }
 
+.text-12 {
+  font-size: 1.4rem;
+}
+
 .text-14 {
   font-size: 1.4rem;
 }
 
 .text-16 {
   font-size: 1.6rem;
+}
+
+.text-18 {
+  font-size: 1.8rem;
+}
+
+.text-28 {
+  font-size: 2.8rem;
 }
 
 .text-66 {
@@ -42968,12 +42980,24 @@ video {
     height: 3px;
   }
 
+  .sm\:text-12 {
+    font-size: 1.4rem;
+  }
+
   .sm\:text-14 {
     font-size: 1.4rem;
   }
 
   .sm\:text-16 {
     font-size: 1.6rem;
+  }
+
+  .sm\:text-18 {
+    font-size: 1.8rem;
+  }
+
+  .sm\:text-28 {
+    font-size: 2.8rem;
   }
 
   .sm\:text-66 {
@@ -74097,12 +74121,24 @@ video {
     height: 3px;
   }
 
+  .md\:text-12 {
+    font-size: 1.4rem;
+  }
+
   .md\:text-14 {
     font-size: 1.4rem;
   }
 
   .md\:text-16 {
     font-size: 1.6rem;
+  }
+
+  .md\:text-18 {
+    font-size: 1.8rem;
+  }
+
+  .md\:text-28 {
+    font-size: 2.8rem;
   }
 
   .md\:text-66 {
@@ -105226,12 +105262,24 @@ video {
     height: 3px;
   }
 
+  .lg\:text-12 {
+    font-size: 1.4rem;
+  }
+
   .lg\:text-14 {
     font-size: 1.4rem;
   }
 
   .lg\:text-16 {
     font-size: 1.6rem;
+  }
+
+  .lg\:text-18 {
+    font-size: 1.8rem;
+  }
+
+  .lg\:text-28 {
+    font-size: 2.8rem;
   }
 
   .lg\:text-66 {
@@ -136355,12 +136403,24 @@ video {
     height: 3px;
   }
 
+  .xl\:text-12 {
+    font-size: 1.4rem;
+  }
+
   .xl\:text-14 {
     font-size: 1.4rem;
   }
 
   .xl\:text-16 {
     font-size: 1.6rem;
+  }
+
+  .xl\:text-18 {
+    font-size: 1.8rem;
+  }
+
+  .xl\:text-28 {
+    font-size: 2.8rem;
   }
 
   .xl\:text-66 {
@@ -167484,12 +167544,24 @@ video {
     height: 3px;
   }
 
+  .\32xl\:text-12 {
+    font-size: 1.4rem;
+  }
+
   .\32xl\:text-14 {
     font-size: 1.4rem;
   }
 
   .\32xl\:text-16 {
     font-size: 1.6rem;
+  }
+
+  .\32xl\:text-18 {
+    font-size: 1.8rem;
+  }
+
+  .\32xl\:text-28 {
+    font-size: 2.8rem;
   }
 
   .\32xl\:text-66 {

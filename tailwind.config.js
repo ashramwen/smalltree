@@ -21,8 +21,11 @@ module.exports = {
         },
       },
       fontSize: {
+        12: '1.4rem',
         14: '1.4rem',
         16: '1.6rem',
+        18: '1.8rem',
+        28: '2.8rem',
         66: '16.5rem',
       },
       height: {

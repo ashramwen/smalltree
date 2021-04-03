@@ -6,46 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" />
 
-    <link href="assets/css/index.css" rel="stylesheet" />
-    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- <script src="assets/js/flickity.pkgd.min.js"></script> -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <title>小樹購</title>
   </head>
   <body class="box-content text-gray-500">
     <!-- Header -->
     <include src="partials/header.html"></include>
 
-    <div class="carousel h-full">
-      <div class="relative h-full w-full">
-        <img
-          width="1020"
-          height="406"
-          class="absolute"
-          src="https://i.picsum.photos/id/1021/2000/800.jpg?blur=4&grayscale&hmac=TPKf_0yysl_EdjgbzzPNnterfQeReOQ7Lx0Wu5SHFZQ"
-          alt=""
-        />
-        <div class="absolute text-white h-full">
-          <div class="text-shadow">貓咪卯毛咪毛貓咪・週年慶</div>
-          <div class="text-shadow">低敏無穀挑嘴全年齡貓糧1kg</div>
-          <button>獨家售賣・早鳥限定優惠</button>
-        </div>
-      </div>
+    <!-- carousel -->
+    <div class="carousel relative" data-flickity='{ "wrapAround": true }'>
+      <include src="partials/carousel-item.html"></include>
+      <include src="partials/carousel-item.html"></include>
+      <include src="partials/carousel-item.html"></include>
+      <include src="partials/carousel-item.html"></include>
+      <include src="partials/carousel-item.html"></include>
     </div>
 
-    <div class="container mx-auto flex flex-col items-center xl:px-12 px-6">
-      <div class="mt-18 text-4xl text-gray-500">主打商品</div>
-      <div class="h-3px w-12 mt-5 mb-12 bg-orange rounded-full"></div>
+    <div class="content mx-auto flex flex-col items-center xl:px-12 px-6">
       <!-- Product -->
       <include src="partials/product.html"></include>
 
-      <div class="mt-18 text-4xl text-gray-500">春季活動</div>
-      <div class="h-3px w-12 mt-5 mb-12 bg-orange rounded-full"></div>
       <!-- Spring event -->
       <include src="partials/spring.html"></include>
 
-      <div class="mt-18 text-4xl text-gray-500">超酷活動</div>
-      <div class="h-3px w-12 mt-5 mb-12 bg-orange rounded-full"></div>
       <!-- Cool event -->
       <include src="partials/event.html"></include>
 
