@@ -8,43 +8,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" />
 
+    <!-- <link rel="stylesheet" href="assets/css/flickity.min.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- <script src="assets/js/flickity.pkgd.min.js"></script> -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <title>小樹購</title>
   </head>
-  <body class="box-content text-gray-500">
-    <!-- Header -->
+  <body>
     <include src="partials/header.html"></include>
 
-    <!-- carousel -->
-    <div class="carousel relative" data-flickity='{ "wrapAround": true }'>
-      <include src="partials/carousel-item.html"></include>
-      <include src="partials/carousel-item.html"></include>
-      <include src="partials/carousel-item.html"></include>
-      <include src="partials/carousel-item.html"></include>
-      <include src="partials/carousel-item.html"></include>
+    <div class="box-content text-gray-500">
+      <!-- carousel -->
+      <div class="carousel relative" data-flickity='{ "wrapAround": true }'>
+        <include src="partials/carousel-item.html"></include>
+        <include src="partials/carousel-item.html"></include>
+        <include src="partials/carousel-item.html"></include>
+        <include src="partials/carousel-item.html"></include>
+        <include src="partials/carousel-item.html"></include>
+      </div>
+
+      <div class="content mx-auto flex flex-col items-center xl:px-12 px-6">
+        <!-- Product -->
+        <include src="partials/product.html"></include>
+
+        <!-- Spring event -->
+        <include src="partials/spring.html"></include>
+
+        <!-- Cool event -->
+        <include src="partials/event.html"></include>
+
+        <!-- special -->
+        <include src="partials/special.html"></include>
+      </div>
     </div>
 
-    <div class="content mx-auto flex flex-col items-center xl:px-12 px-6">
-      <!-- Product -->
-      <include src="partials/product.html"></include>
-
-      <!-- Spring event -->
-      <include src="partials/spring.html"></include>
-
-      <!-- Cool event -->
-      <include src="partials/event.html"></include>
-
-      <!-- special -->
-      <include src="partials/special.html"></include>
-    </div>
-
-    <!-- Footer -->
     <include src="partials/footer.html"></include>
   </body>
 </html>
