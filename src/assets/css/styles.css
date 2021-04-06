@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  font-family: "Gen Jyuu Gothic", "Noto Sans TC", sans-serif;
+  font-family: 'Gen Jyuu Gothic', 'Noto Sans TC', sans-serif;
 }
 
 body {
@@ -80,7 +80,7 @@ body {
   @apply rounded-full bg-orange;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 993px) {
   .carousel {
     height: 28vw;
   }
