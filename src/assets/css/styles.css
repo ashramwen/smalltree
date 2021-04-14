@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-  max-width: 1280px;
+  max-width: 1260px;
 }
 
 .product {
@@ -38,7 +38,9 @@ body {
 
 .event-lg {
   width: 345px;
+  min-width: 345px;
   height: 215px;
+  min-height: 215px;
 }
 
 .event {
@@ -120,7 +122,7 @@ body {
   .event {
     width: 270px;
     height: 100px;
-    @apply box-shadow;
+    @apply box-shadow ml-6;
   }
 
   .special {
